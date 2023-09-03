@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-const HomeP = () => {
+const HomeContent = () => {
     return (
     <HomeContainer>
         <h1>hello</h1>
@@ -9,8 +9,8 @@ const HomeP = () => {
     )
 }
 
-export default HomeP;
+export default HomeContent;
 
 const HomeContainer = styled.div`
-h1{color : white;}
+
 `;
