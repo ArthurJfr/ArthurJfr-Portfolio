@@ -1,9 +1,10 @@
 
 import styled from 'styled-components';
 import { Inter } from 'next/font/google'
-import Layout from '@/components/Layout';
+
 import GlobalStyle from '@/components/GlobalStyle';
 import HomeContent from '@/components/HomeContent';
+import Header from '@/components/Header';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -13,7 +14,7 @@ export default function Home() {
     <main className={inter.className}>
       <GlobalStyle />
       <Container>
-        <Layout />
+        <Header />
         <HomeContent />
       </Container>
     </main>

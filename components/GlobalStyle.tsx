@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { useState } from "react";
+
 
 
 
@@ -7,8 +7,8 @@ import { useState } from "react";
 const GlobalStyle = createGlobalStyle`
     :root {
         --bg-color : #030303;
-        --bg-img : url('/img/bg.svg');
-        --text-color : #FFF;
+        --bg-img : url('/img/frame.svg');
+        --text-color : #000;
 
         --border-rm : 8px;
         --border-rl : 16px;
